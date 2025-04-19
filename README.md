@@ -15,7 +15,7 @@ La idea es simple: comparar **cuánto te saldría el chiste del crédito** (usan
 
 ## ¡Échale un Vistazo! (Interfaz Gráfica - `INICIO.py`) 🖼️
 
-![alt text](captura patanalla.png)
+![Interfaz Gráfica](captura%20pantalla.png)
 
 
 ## Requisitos pa' que Corra Filete ✔️
