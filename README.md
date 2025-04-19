@@ -30,7 +30,7 @@ Tienes dos formas, elige la que más te tinca:
 
 ### Opción 1: A la Antigua (Consola con `analisis_credito_cripto.py`)
 
-1.  **Prepara tu archivo CSV:** Necesitas un archivo `.csv` (puedes usar o modificar el `gmolate.csv` de ejemplo). Asegúrate que tenga estas columnas (puede ser con otros nombres, pero que estén): `nombre del banco`, `CAE`, `interes vigente`.
+1.  **Prepara tu archivo CSV:** Necesitas un archivo `.csv` (puedes usar o modificar el `ejemplo.csv` de ejemplo). Asegúrate que tenga estas columnas (puede ser con otros nombres, pero que estén): `nombre del banco`, `CAE`, `interes vigente`.
     *   **¡Importante!** El valor del CAE en el CSV debe estar en **formato decimal**. Por ejemplo, si el CAE es 37.29%, en el CSV pones `0.3729`. La tasa de interés vigente también.
 2.  **Abre tu Terminal:** Anda a la carpeta donde guardaste los archivos del proyecto.
 3.  **Ejecuta el Script:** Tipea esto y dale Enter:
@@ -43,7 +43,7 @@ Tienes dos formas, elige la que más te tinca:
     ```
     *   **Ejemplo:**
         ```
-        [ btc=68500.50 ; gmolate.csv ; $=955.20 ]
+        [ btc=68500.50 ; ejemplo.csv ; $=955.20 ]
         ```
 5.  **Revisa los Resultados:** Te mostrará el análisis de viabilidad pa' cada banco que tengas en tu CSV, comparando el costo del crédito con escenarios de ganancia del 10%, 30% y 50%.
 
@@ -72,7 +72,7 @@ Tienes dos formas, elige la que más te tinca:
 *   `README.md`: Esta misma explicación ¡que estás leyendo ahora!
 *   `analisis_credito_cripto.py`: El código pa' correr el análisis desde la consola (usa el CSV).
 *   `INICIO.py`: El código que crea la interfaz gráfica bonita (mete los datos a mano).
-*   `gmolate.csv`: Un archivo CSV de **ejemplo** con datos (ficticios o desactualizados) de algunos bancos chilenos. **¡OJO! Si usas la versión de consola, actualiza este archivo con datos reales y vigentes.**
+*   `ejemplo.csv`: Un archivo CSV de **ejemplo** con datos (ficticios o desactualizados) de algunos bancos chilenos. **¡OJO! Si usas la versión de consola, actualiza este archivo con datos reales y vigentes.**
 
 ## ⚠️ ¡¡OJO PELAO!! - Advertencia Importante ⚠️
 
