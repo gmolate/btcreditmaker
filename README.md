@@ -1,6 +1,6 @@
 # Calculadora de Viabilidad: Crédito pa' Comprar Criptos 📊💸🇨🇱
 
-¡Wena cabros! Este proyecto es una pequeña herramienta hecha en Python pa' ayudarte a **cacharpular** si te conviene o no endeudarte (onda, pedir un crédito o usar la tarjeta) pa' meterle unas **lucas** al trading de criptomonedas, como el Bitcoin.
+¡Wena cabros! Este proyecto es una pequeña herramienta hecha en Python pa' ayudarte a **cachar** si te conviene o no endeudarte (onda, pedir un crédito o usar la tarjeta) pa' meterle unas **lucas** al trading de criptomonedas, como el Bitcoin.
 
 La idea es simple: comparar **cuánto te saldría el chiste del crédito** (usando el famoso CAE) con **cuánto *podrías* ganar o perder** si el precio de la cripto se mueve. ¡Ojo! Esto es una simulación nomás, las criptos son más volátiles que Kramer, así que no te confíes ciegamente.
 
