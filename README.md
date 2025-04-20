@@ -47,7 +47,7 @@ Tienes dos formas, elige la que más te tinca:
         ```
 5.  **Revisa los Resultados:** Te mostrará el análisis de viabilidad pa' cada banco que tengas en tu CSV, comparando el costo del crédito con escenarios de ganancia del 10%, 30% y 50%.
 
-### Opción 2: La Más Pinta (Interfaz Gráfica con `INICIO.py`)
+### Opción 2: La Más Pinta (Interfaz Gráfica con `INICIO.py` o el ejecutable `INICIO.exe` )
 
 1.  **Abre tu Terminal:** De nuevo, anda a la carpeta donde guardaste los archivos.
 2.  **Ejecuta el Script:** Tipea esto y dale Enter:
