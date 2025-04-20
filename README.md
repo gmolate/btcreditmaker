@@ -11,9 +11,9 @@ La idea es simple: comparar **cuánto te saldría el chiste del crédito** (usan
 *   **Te Tira el Veredicto:** Compara el costo del crédito con tu posible ganancia o pérdida del trading y te dice si, en ese escenario específico, **saldrías pa' adelante (✅) o pa' atrás (❌)**.
 *   **Dos Modos de Uso:**
     1.  **A la antigua (Consola):** Usando un script (`analisis_credito_cripto.py`) que lee los datos de los bancos (CAE, etc.) desde un archivo `.csv`. Ideal si quieres comparar varios bancos de una.
-    2.  **Más Pituco (Interfaz Gráfica):** Usando un script (`INICIO.py`) que abre unas **ventanitas** donde metes todos los datos a mano (monto, precio BTC, dólar, CAE, y el % de ganancia/pérdida que quieres probar con una barra). ¡Más fácil y al toque!
+    2.  **Más Pituco (Interfaz Gráfica):** Usando un script (`INICIO.py` o el ejecutable `INICIO.exe`) que abre unas **ventanitas** donde metes todos los datos a mano (monto, precio BTC, dólar, CAE, y el % de ganancia/pérdida que quieres probar con una barra). ¡Más fácil y al toque!
 
-## ¡Échale un Vistazo! (Interfaz Gráfica - `INICIO.py`) 🖼️
+## ¡Échale un Vistazo! (Interfaz Gráfica - `INICIO.py` o el ejecutable `INICIO.exe`) 🖼️
 
 ![Interfaz Gráfica](captura%20pantalla.png)
 
@@ -21,7 +21,7 @@ La idea es simple: comparar **cuánto te saldría el chiste del crédito** (usan
 ## Requisitos pa' que Corra Filete ✔️
 
 *   **Python 3:** Ojalá una versión más o menos nueva (onda 3.7 pa' arriba).
-*   **Tkinter:** Pa' la versión gráfica (`INICIO.py`). Casi siempre viene instalado con Python. Si por alguna razón rara no lo tienes, quizás tengas que instalarlo (busca cómo hacerlo pa' tu sistema operativo, ej. `sudo apt-get install python3-tk` en Linux tipo Debian/Ubuntu).
+*   **Tkinter:** Pa' la versión gráfica (`INICIO.py` o el ejecutable `INICIO.exe`). Casi siempre viene instalado con Python. Si por alguna razón rara no lo tienes, quizás tengas que instalarlo (busca cómo hacerlo pa' tu sistema operativo, ej. `sudo apt-get install python3-tk` en Linux tipo Debian/Ubuntu).
 *   **(Opcional pero bacán):** Tener configurada la "localización" chilena (`es_CL`) en tu compu. Así los montos en pesos chilenos (CLP) se ven con el signo `$` y los puntos como separadores de miles, como debe ser. Si no la tienes, igual funca, pero se ve menos pro.
 
 ## ¿Cómo lo Echo a Andar? ▶️
@@ -47,7 +47,7 @@ Tienes dos formas, elige la que más te tinca:
         ```
 5.  **Revisa los Resultados:** Te mostrará el análisis de viabilidad pa' cada banco que tengas en tu CSV, comparando el costo del crédito con escenarios de ganancia del 10%, 30% y 50%.
 
-### Opción 2: La Más Pinta (Interfaz Gráfica con `INICIO.py` o el ejecutable `INICIO.exe` )
+### Opción 2: La Más Pinta (Interfaz Gráfica con `INICIO.py` o el ejecutable `INICIO.exe` o el ejecutable `INICIO.exe` )
 
 1.  **Abre tu Terminal:** De nuevo, anda a la carpeta donde guardaste los archivos.
 2.  **Ejecuta el Script:** Tipea esto y dale Enter:
@@ -71,7 +71,7 @@ Tienes dos formas, elige la que más te tinca:
 
 *   `README.md`: Esta misma explicación ¡que estás leyendo ahora!
 *   `analisis_credito_cripto.py`: El código pa' correr el análisis desde la consola (usa el CSV).
-*   `INICIO.py`: El código que crea la interfaz gráfica bonita (mete los datos a mano).
+*   `INICIO.py` o el ejecutable `INICIO.exe`: El código que crea la interfaz gráfica bonita (mete los datos a mano).
 *   `ejemplo.csv`: Un archivo CSV de **ejemplo** con datos (ficticios o desactualizados) de algunos bancos chilenos. **¡OJO! Si usas la versión de consola, actualiza este archivo con datos reales y vigentes.**
 
 ## ⚠️ ¡¡OJO PELAO!! - Advertencia Importante ⚠️
